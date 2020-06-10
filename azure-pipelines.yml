@@ -121,6 +121,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'Resource Manager- the Web Game'
+              azureSubscription: 'Resource Manager- the Web game'
               appName: '$(WebAppNameTest)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
